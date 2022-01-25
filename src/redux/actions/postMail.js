@@ -5,7 +5,7 @@ export function postMail(input){
 
     return async (dispatch)=>{
         try {
-            var json = await axios.post(`/postMail`, input);
+            var json = await axios.post(`https://sebastianmesa-api.herokuapp.com/postMail`, input);
             return dispatch({
                 type:ActionTypes.POST_MAIL,
                 payload: json.data,
