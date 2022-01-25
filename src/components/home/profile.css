@@ -1,0 +1,202 @@
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    margin-top: 70px;
+    position: relative;
+    background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));
+    /* background-color: #0062b9; */
+}
+.profile-parent{
+    display: flex;
+    align-items: center;
+}
+.profile-details-name{
+    font-size: 24px;
+    font-family: "Poppins Regular";
+}
+.profile-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 30px 0;
+}
+.profile-details-role h1{
+    font-size: 45px;
+    font-family: "Poppins Regular";
+    /* font-family: cursive; */
+}
+.primary-text{
+    color:(--black);
+    font-size: 30px;
+}
+.highlighted-text{
+    color: #ffffff;
+    font-weight: bold;
+}
+.profile-role-tagline{
+    font-size: 20px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Regular";
+}
+.profile-options .highlighted-btn{
+    margin: 0 0 0 28px;
+}
+.profile-options .highlighted-btn:hover{
+    margin: 0 0 0 28px;
+    background-color: #1f2235;
+    color: #fff;
+    border: #fff solid 2px;
+}
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 30px 0px 0 50px;
+}
+.profile-picture-background{
+    height: 92%;
+    width: 92%;
+    background-image: url("../../assets/home/photo.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+.profile-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-in-out;
+}
+.colz{
+    padding: 8px;
+    padding-left: 7px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+} 
+.colz-icon a{
+    color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    
+}
+.colz-icon i{
+    transform: scale(2);
+}
+.colz .colz-icon i:hover{
+    transition: 0.5s all;
+    transform: scale(1.5);
+    color: white;
+}
+@media screen and (max-width: 1110px) {
+    .profile-container{
+        padding-top: 30px;
+    }
+    .profile-picture{
+        margin: 0 0px 0 80px;
+    }
+    .profile-details-name{
+        font-size: 20px;
+    }
+    .profile-details-role .primary-text{
+        font-size: 12px;
+    }
+    .profile-options .btn{
+        width: 120px;
+        padding:11px 0;
+        z-index: 700;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    .profile-picture{
+        height:320px;
+        width:320px;
+        margin: 0 0 0 4px;
+    }
+}
+@media screen and (max-width:900px) {
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 10px 0 0 0;
+    }
+    .profile-picture{
+        margin: 0 !important;
+    }
+    .profile-options{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .profile-details {
+        margin: 25px 0 0;
+    }
+    .profile-options .highlighted-btn{
+        margin: 0 !important;
+    }
+    .profile-options,
+    .profile-details-role{
+        margin-right: 10px;
+        margin-right: 10px;
+        text-align: center;
+        font-size: 7px;
+    }
+}
+@media screen and (max-width:375px) {
+    .profile-picture{
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+    .profile-details{
+        width: 90%;
+    }
+}
+
+
+
+  .hero__mouse-scroll-cont {
+    margin-top: 60px;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%); }
+    @media only screen and (max-width: 900px) {
+      .hero__mouse-scroll-cont {
+        display: none; } }
+
+  .mouse {
+  /* padding-top: 20px; */
+  width: 25px;
+  height: 50px;
+  border: 2px solid #eee;
+  border-radius: 60px;
+  position: relative;
+  overflow: hidden; }
+  .mouse::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #eee;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 1.3s infinite;
+    -webkit-animation: wheel 1.5s infinite; }
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px; } }
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px; } }

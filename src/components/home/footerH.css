@@ -1,0 +1,25 @@
+.footer-container{
+    height: 8%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /* background-color: #0062b9; */
+    background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));
+
+}
+.footer-parent{
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+}
+.footer-parent img{
+    max-width: 100%;
+    height: 130px;
+}
+@media screen and (max-width: 1110px) {
+    .footer-parent{
+        display: flex;
+        align-items: flex-end;
+    }
+}
