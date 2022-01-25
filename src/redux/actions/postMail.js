@@ -5,7 +5,7 @@ export function postMail(input){
 
     return async (dispatch)=>{
         try {
-            var json = await axios.post(`http://localhost:3001/postMail`, input);
+            var json = await axios.post(`/postMail`, input);
             return dispatch({
                 type:ActionTypes.POST_MAIL,
                 payload: json.data,
