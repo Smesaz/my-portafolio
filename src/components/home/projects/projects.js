@@ -38,7 +38,7 @@ const Projects = () => {
         </div>
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <iframe title='Dog Breeds App' src="https://player.vimeo.com/video/653734306?h=f0c9ff753d"  className='projects__row-video' width={'100%'} height={'100%'}   frameborder="0" allow="autoplay; fullscreen;" allowfullscreen />
+            <iframe title='Dog Breeds App' src="https://player.vimeo.com/video/653734306?h=f0c9ff753d"  className='projects__row-video' width={'90%'} height={'100%'}   frameborder="0" allow="autoplay; fullscreen;" allowfullscreen />
           </div>
           <div class="projects__row-content">
             <h3 class="projects__row-content-title">Dog Breeds App</h3>
