@@ -3,6 +3,8 @@ import { useDispatch } from 'react-redux';
 import {HashLoader} from 'react-spinners';
 import './contactMe.css';
 import Swal from 'sweetalert2';
+// import ReCAPTCHA from 'react-google-recaptcha';
+
 import { postMail } from '../../../redux/actions/postMail';
 const ContactMe = () => {
 
@@ -80,6 +82,10 @@ const ContactMe = () => {
       timer: 2000,
     });
   }
+
+  // function onSubmit(token) {
+  //   document.getElementById("demo-form").submit();
+  // }
 
   return (
     <section id="contactme" class="contact sec-pad dynamicBg">
