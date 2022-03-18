@@ -54,13 +54,13 @@ const Profile = () => {
                     </span>
                 </div>
                 <div className='profile-options'>
-                    <a href='cv_Sebastian_Mesa_Z.pdf' download='SebastianMesaCV.pdf'>
+                    <a href='cv_Sebastian_Mesa.pdf' download='SebastianMesaCV.pdf'>
                         <button className='btn primary-btn'>
                         {" "}
                         CV en Español 
                         </button>
                     </a>
-                    <a href='CV_Sebastian_Mesa_Zafra.pdf' download='SebastianMesaCV.pdf'>
+                    <a href='CV_Sebastian-Mesa-Zafra.pdf' download='SebastianMesaCV.pdf'>
                         <button className='btn highlighted-btn'>
                         {" "}
                         CV en Inglés 
