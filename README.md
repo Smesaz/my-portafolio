@@ -7,6 +7,6 @@ This project use these technologies:
 - CSS
 - NodeJs - Express
 
-https://sebastianmesa.herokuapp.com/
+https://sebastianmesa.xyz
 
 
